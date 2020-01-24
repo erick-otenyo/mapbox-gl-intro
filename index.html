@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Baringo Health Facilities Locator</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <!-- Load Jquery -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Load Mapbox GL JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
+
+  <!-- Load Mpabox GL CSS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Load our custom CSS -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Sidebar section start -->
+  <div class="sidebar">
+    <div class="heading">
+      <h1>Baringo Health Facilities</h1>
+    </div>
+    <div id="listings" class="listings"></div>
+  </div>
+  <!-- Side bar section end -->
+
+  <!-- Map container -->
+  <div id="map" class="map"></div>
+
+  <!-- Load data -->
+  <script src="data/baringo_county.js"></script>
+  <script src="data/baringo_health_facilities.js"></script>
+
+  <!-- Load our custom web map code -->
+  <script src="map.js"></script>
+</body>
+
+</html>

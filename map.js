@@ -3,7 +3,7 @@
  */
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoidGhlZ2lzZGV2IiwiYSI6ImNqdGQ5dGg5ZzEycDgzeXA4dzZhenp3YzEifQ.54Em__v1ZweuQqIRuD6oww";
+  "YOUR TOKEN HERE";
 
 /**
  * Add the map to the page
